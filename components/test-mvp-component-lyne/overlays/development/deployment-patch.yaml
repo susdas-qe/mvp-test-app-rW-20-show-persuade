@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/susdas_quay_org/mvp-dev-aumu-tenant/mvp-test-app/test-mvp-component-lyne@sha256:f1e7629e5b2407e3e7dd6f6586e7c5879c2cce5693289c8876bb29daae4f7e6e
+      - image: quay.io/susdas_quay_org/mvp-dev-aumu-tenant/mvp-test-app/test-mvp-component-lyne@sha256:e552a6c58318754b94f7411ac72ffcb20b0db230881175b34694cddb4f81dd8b
         name: hacbs-jvm-build-test-project
         resources: {}
 status: {}
