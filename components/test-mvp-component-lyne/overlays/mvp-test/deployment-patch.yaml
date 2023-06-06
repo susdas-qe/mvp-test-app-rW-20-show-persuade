@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: test-mvp-component-lyne
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - env:
+        - name: var_name
+          value: test
+        image: quay.io/susdas_quay_org/mvp-dev-aumu-tenant/mvp-test-app/test-mvp-component-lyne@sha256:f1e7629e5b2407e3e7dd6f6586e7c5879c2cce5693289c8876bb29daae4f7e6e
+        name: hacbs-jvm-build-test-project
+        resources: {}
+status: {}
